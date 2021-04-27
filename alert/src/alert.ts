@@ -1,2 +1,1 @@
-import SlAlert from '@shoelace-style/shoelace/dist/components/alert/alert.js';
-export { SlAlert };
+export { SlAlert } from '@shoelace-style/shoelace/dist/shoelace.js';

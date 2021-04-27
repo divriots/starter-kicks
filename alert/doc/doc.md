@@ -1,5 +1,5 @@
 ```js script
-import { html } from '~/md-layout';
+import { html, registerIconLibrary } from '~/md-layout';
 ```
 
 # Alert
@@ -16,8 +16,9 @@ Alerts are used to display important messages either inline or as toast notifica
 </sl-alert>
 ```
 
-### Code
-```html preview
+#### Code
+
+```htm
 <sl-alert open>
   <sl-icon slot="icon" name="info-circle"></sl-icon>
   This is a standard alert. You can customize its content and even the icon.
@@ -73,8 +74,9 @@ Set the `type` attribute to change the alert's type.
 </sl-alert>
 ```
 
-### Code
-```html preview
+#### Code
+
+```htm
 <sl-alert type="primary" open>
   <sl-icon slot="icon" name="info-circle"></sl-icon>
   <strong>This is super informative</strong><br>
@@ -127,7 +129,6 @@ Add the `closable` attribute to show a close button that will hide the alert.
 
 
 ```
-
 ```js script
 window.addEventListener('load', () => {
   const alert = document.querySelector('.alert-closable');
@@ -136,9 +137,9 @@ window.addEventListener('load', () => {
   });
 });
 ```
+#### Code
 
-### Code
-```html preview
+```htm
 <sl-alert type="primary" open closable class="alert-closable">
   <sl-icon slot="icon" name="info-circle"></sl-icon>
   You can close this alert any time!
@@ -163,8 +164,9 @@ Icons are optional. Simply omit the `icon` slot if you don't want them.
 </sl-alert>
 ```
 
-### Code
-```html preview
+#### Code
+
+```htm
 <sl-alert type="primary" open>
   Nothing fancy here, just a simple alert.
 </sl-alert>
@@ -193,7 +195,6 @@ Set the `duration` prop to automatically hide an alert after a period of time. T
   }
 </style>
 ```
-
 ```js script
 window.addEventListener('load', () => {
   const container = document.querySelector('.alert-duration');
@@ -203,9 +204,9 @@ window.addEventListener('load', () => {
   button.addEventListener('click', () => alert.show());
 });
 ```
+#### Code
 
-### Code
-```html preview
+```htm
 <div class="alert-duration">
   <sl-button type="primary">Show Alert</sl-button>
 
@@ -232,7 +233,7 @@ window.addEventListener('load', () => {
 
 ### Toast Notifications
 
-To display an alert as a toast notification, or "toast", create the alert and call its `toast()` method. This will move the alert out of its position in the DOM and into [the toast stack](#the-toast-stack) where it will be shown. Once dismissed, it will be removed from the DOM completely. To reuse a toast, store a reference to it and call `toast()` again later on.
+To display an alert as a toast notification, or "toast", create the alert and call its `toast()` method. This will move the alert out of its position in the DOM and into the toast stack where it will be shown. Once dismissed, it will be removed from the DOM completely. To reuse a toast, store a reference to it and call `toast()` again later on.
 
 You should always use the `closable` prop so users can dismiss the notification. It's also common to set a reasonable `duration` when the notification doesn't require acknowledgement.
 
@@ -278,7 +279,6 @@ You should always use the `closable` prop so users can dismiss the notification.
 
 
 ```
-
 ```js script
 window.addEventListener('load', () => {
   const container = document.querySelector('.alert-toast');
@@ -291,9 +291,9 @@ window.addEventListener('load', () => {
   });
 });
 ```
+#### Code
 
-### Code
-```html preview
+```htm
 <div class="alert-toast">
   <sl-button type="primary">Primary</sl-button>
   <sl-button type="success">Success</sl-button>
@@ -356,7 +356,6 @@ For convenience, you can create a utility that emits toast notifications with a 
 
 
 ```
-
 ```js script
 window.addEventListener('load', () => {
   const container = document.querySelector('.alert-toast-wrapper');
@@ -391,9 +390,9 @@ window.addEventListener('load', () => {
   });
 });
 ```
+#### Code
 
-### Code
-```html preview
+```htm
 <div class="alert-toast-wrapper">
   <sl-button type="primary">Create Toast</sl-button>
 </div>
@@ -404,7 +403,7 @@ window.addEventListener('load', () => {
   let count = 0;
 
   // Always escape HTML for text arguments!
-  function escapeHtml(html) {
+  function escapeHtml(htm) {
     const div = document.createElement('div');
     div.textContent = html;
     return div.innerHTML;
