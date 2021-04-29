@@ -2,6 +2,14 @@
 import { html, registerIconLibrary } from '~/md-layout';
 ```
 
+
+```js script
+  window.addEventListener('load', () => {
+    [...document.querySelectorAll('div')]
+      .filter((e) => e.id.startsWith('__html_html'))
+      .forEach((e) => e.setAttribute('style', 'position:relative'));
+  });
+  ```
 # Tooltip
 
 [component-header:sl-tooltip]
