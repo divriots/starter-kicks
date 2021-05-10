@@ -4,7 +4,7 @@ import { html, registerIconLibrary } from '~/md-layout';
 
 # Checkbox
 
-[component-header:sl-checkbox]
+
 
 Checkboxes allow the user to toggle an option on or off.
 
@@ -68,4 +68,4 @@ Use the `disabled` attribute to disable the checkbox.
 <sl-checkbox disabled>Disabled</sl-checkbox>
 ```
 
-[component-metadata:sl-checkbox]
+

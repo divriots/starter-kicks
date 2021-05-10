@@ -4,7 +4,7 @@ import { html, registerIconLibrary } from '~/md-layout';
 
 # Dialog
 
-[component-header:sl-dialog]
+
 
 Dialogs, sometimes called "modals", appear above the page and require the user's immediate attention.
 
@@ -257,4 +257,4 @@ window.addEventListener('load', () => {
 </script>
 ```
 
-[component-metadata:sl-dialog]
+

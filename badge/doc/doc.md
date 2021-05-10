@@ -4,7 +4,7 @@ import { html, registerIconLibrary } from '~/md-layout';
 
 # Badge
 
-[component-header:sl-badge]
+
 
 Badges are used to draw attention and display statuses or counts.
 
@@ -170,4 +170,4 @@ When including badges in menu items, use the `suffix` slot to make sure they're 
 </sl-menu>
 ```
 
-[component-metadata:sl-badge]
+

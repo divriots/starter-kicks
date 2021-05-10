@@ -4,7 +4,7 @@ import { html, registerIconLibrary } from '~/md-layout';
 
 # Avatar
 
-[component-header:sl-avatar]
+
 
 Avatars are used to represent a person or object.
 
@@ -161,4 +161,4 @@ You can group avatars with a few lines of CSS.
 </style>
 ```
 
-[component-metadata:sl-avatar]
+

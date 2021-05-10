@@ -4,7 +4,7 @@ import { html, registerIconLibrary } from '~/md-layout';
 
 # Tag
 
-[component-header:sl-tag]
+
 
 Tags are used as labels to organize things or to indicate a selection.
 
@@ -124,4 +124,4 @@ window.addEventListener('load', () => {
 </style>
 ```
 
-[component-metadata:sl-tag]
+

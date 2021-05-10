@@ -4,7 +4,7 @@ import { html, registerIconLibrary } from '~/md-layout';
 
 # Button Group
 
-[component-header:sl-button-group]
+
 
 Button groups can be used to group related buttons into sections.
 
@@ -430,4 +430,4 @@ Create interactive toolbars with button groups.
 </style>
 ```
 
-[component-metadata:sl-button-group]
+

@@ -4,7 +4,7 @@ import { html, registerIconLibrary } from '~/md-layout';
 
 # Input
 
-[component-header:sl-input]
+
 
 Inputs collect data from the user.
 
@@ -224,4 +224,4 @@ Add descriptive help text to an input with the `help-text` attribute. For help t
 ></sl-input>
 ```
 
-[component-metadata:sl-input]
+

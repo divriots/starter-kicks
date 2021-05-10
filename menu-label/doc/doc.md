@@ -4,7 +4,7 @@ import { html, registerIconLibrary } from '~/md-layout';
 
 # Menu Label
 
-[component-header:sl-menu-label]
+
 
 Menu labels are used to describe a group of menu items.
 
@@ -43,4 +43,4 @@ Menu labels are used to describe a group of menu items.
 </sl-menu>
 ```
 
-[component-metadata:sl-menu-label]
+

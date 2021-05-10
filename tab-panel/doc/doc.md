@@ -4,7 +4,7 @@ import { html, registerIconLibrary } from '~/md-layout';
 
 # Tab Panel
 
-[component-header:sl-tab-panel]
+
 
 Tab panels are used inside tab groups to display content.
 
@@ -41,4 +41,4 @@ Tab panels are used inside tab groups to display content.
 
 ?> Additional demonstrations can be found in the tab group examples.
 
-[component-metadata:sl-tab-panel]
+

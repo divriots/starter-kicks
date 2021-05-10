@@ -4,7 +4,7 @@ import { html, registerIconLibrary } from '~/md-layout';
 
 # Textarea
 
-[component-header:sl-textarea]
+
 
 Textareas collect data from the user and allow multiple lines of text.
 
@@ -161,4 +161,4 @@ Textareas will automatically resize to expand to fit their content when `resize`
 <sl-textarea resize="auto"></sl-textarea>
 ```
 
-[component-metadata:sl-textarea]
+

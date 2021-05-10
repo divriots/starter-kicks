@@ -4,7 +4,7 @@ import { html, registerIconLibrary } from '~/md-layout';
 
 # Drawer
 
-[component-header:sl-drawer]
+
 
 Drawers slide in from a container to expose additional options and information.
 
@@ -443,4 +443,4 @@ window.addEventListener('load', () => {
 </script>
 ```
 
-[component-metadata:sl-drawer]
+

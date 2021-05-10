@@ -4,7 +4,7 @@ import { html, registerIconLibrary } from '~/md-layout';
 
 # Radio
 
-[component-header:sl-radio]
+
 
 Radios allow the user to select one option from a group of many.
 
@@ -58,4 +58,4 @@ Use the `disabled` attribute to disable a radio.
 </sl-radio-group>
 ```
 
-[component-metadata:sl-radio]
+

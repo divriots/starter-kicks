@@ -4,7 +4,7 @@ import { html, registerIconLibrary } from '~/md-layout';
 
 # Image Comparer
 
-[component-header:sl-image-comparer]
+
 
 Compare visual differences between similar photos with a sliding panel.
 
@@ -50,4 +50,4 @@ Use the `position` attribute to set the initial position of the slider. This is 
 </sl-image-comparer>
 ```
 
-[component-metadata:sl-image-comparer]
+

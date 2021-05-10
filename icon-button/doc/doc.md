@@ -4,7 +4,7 @@ import { html, registerIconLibrary } from '~/md-layout';
 
 # Icon Button
 
-[component-header:sl-icon-button]
+
 
 Icons buttons are simple, icon-only buttons that can be used for actions and in toolbars.
 
@@ -126,4 +126,4 @@ Wrap a tooltip around an icon button to provide contextual information to the us
 <sl-icon-button name="gear" label="Settings" disabled></sl-icon-button>
 ```
 
-[component-metadata:sl-icon-button]
+

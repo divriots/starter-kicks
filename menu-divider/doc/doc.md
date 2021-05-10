@@ -4,7 +4,7 @@ import { html, registerIconLibrary } from '~/md-layout';
 
 # Menu Divider
 
-[component-header:sl-menu-divider]
+
 
 Menu dividers are used to visually group menu items.
 
@@ -41,4 +41,4 @@ Menu dividers are used to visually group menu items.
 </sl-menu>
 ```
 
-[component-metadata:sl-menu-divider]
+

@@ -4,7 +4,7 @@ import { html, registerIconLibrary } from '~/md-layout';
 
 # Select
 
-[component-header:sl-select]
+
 
 Selects allow you to choose one or more items from a dropdown menu.
 
@@ -367,4 +367,4 @@ Add descriptive help text to a select with the `help-text` attribute. For help t
 </sl-select>
 ```
 
-[component-metadata:sl-select]
+

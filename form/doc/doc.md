@@ -4,7 +4,7 @@ import { html, registerIconLibrary } from '~/md-layout';
 
 # Form
 
-[component-header:sl-form]
+
 
 Forms collect data that can easily be processed and sent to a server.
 
@@ -398,4 +398,4 @@ Instead, toggle a class and target it in your stylesheet as shown below.
 </style>
 ```
 
-[component-metadata:sl-form]
+

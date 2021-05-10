@@ -4,7 +4,7 @@ import { html, registerIconLibrary } from '~/md-layout';
 
 # Dropdown
 
-[component-header:sl-dropdown]
+
 
 Dropdowns expose additional content that "drops down" in a panel.
 
@@ -345,4 +345,4 @@ window.addEventListener('load', () => {
 </script>
 ```
 
-[component-metadata:sl-dropdown]
+

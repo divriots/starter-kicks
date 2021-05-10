@@ -4,7 +4,7 @@ import { html, registerIconLibrary } from '~/md-layout';
 
 # Tab
 
-[component-header:sl-tab]
+
 
 Tabs are used inside tab groups to represent tab panels.
 
@@ -27,4 +27,4 @@ Tabs are used inside tab groups to represent tab panels.
 
 ?> Additional demonstrations can be found in the tab group examples.
 
-[component-metadata:sl-tab]
+
