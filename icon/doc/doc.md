@@ -4,7 +4,7 @@ import { html, registerIconLibrary } from '~/md-layout';
 
 # Icon
 
-[component-header:sl-icon]
+
 
 Icons are symbols that can be used to represent various options within an application.
 
@@ -987,4 +987,4 @@ item.innerHTML = `
 </style>
 ```
 
-[component-metadata:sl-icon]
+

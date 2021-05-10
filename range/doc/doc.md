@@ -4,7 +4,7 @@ import { html, registerIconLibrary } from '~/md-layout';
 
 # Range
 
-[component-header:sl-range]
+
 
 Ranges allow the user to select a single value within a given range using a slider.
 
@@ -135,4 +135,4 @@ Add descriptive help text to a range with the `help-text` attribute. For help te
 ></sl-input>
 ```
 
-[component-metadata:sl-range]
+

@@ -4,7 +4,7 @@ import { html, registerIconLibrary } from '~/md-layout';
 
 # Rating
 
-[component-header:sl-rating]
+
 
 Ratings give users a way to quickly view and provide feedback.
 
@@ -154,4 +154,4 @@ window.addEventListener('load', () => {
 </script>
 ```
 
-[component-metadata:sl-rating]
+

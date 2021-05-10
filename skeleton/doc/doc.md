@@ -4,7 +4,7 @@ import { html, registerIconLibrary } from '~/md-layout';
 
 # Skeleton
 
-[component-header:sl-skeleton]
+
 
 Skeletons are used to show where content will eventually be drawn.
 
@@ -394,4 +394,4 @@ Set the `--color` and `--sheen-color` custom properties to adjust the skeleton's
 <sl-skeleton style="--color: tomato; --sheen-color: #ffb094;"></sl-skeleton>
 ```
 
-[component-metadata:sl-skeleton]
+

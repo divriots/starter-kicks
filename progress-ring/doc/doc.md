@@ -4,7 +4,7 @@ import { html, registerIconLibrary } from '~/md-layout';
 
 # Progress Ring
 
-[component-header:sl-progress-ring]
+
 
 Progress rings are used to show the progress of a determinate operation in a circular fashion.
 
@@ -135,4 +135,4 @@ window.addEventListener('load', () => {
 </script>
 ```
 
-[component-metadata:sl-progress-ring]
+

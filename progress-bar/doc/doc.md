@@ -4,7 +4,7 @@ import { html, registerIconLibrary } from '~/md-layout';
 
 # Progress Bar
 
-[component-header:sl-progress-bar]
+
 
 Progress bars are used to show the status of an ongoing operation.
 
@@ -114,4 +114,4 @@ The `indeterminate` attribute can be used to inform the user that the operation 
 <sl-progress-bar indeterminate></sl-progress-bar>
 ```
 
-[component-metadata:sl-progress-bar]
+

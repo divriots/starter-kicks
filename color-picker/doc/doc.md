@@ -4,7 +4,7 @@ import { html, registerIconLibrary } from '~/md-layout';
 
 # Color Picker
 
-[component-header:sl-color-picker]
+
 
 Color pickers allow the user to select a color.
 
@@ -92,4 +92,4 @@ The color picker can be rendered inline instead of in a dropdown using the `inli
 <sl-color-picker inline></sl-color-picker>
 ```
 
-[component-metadata:sl-color-picker]
+

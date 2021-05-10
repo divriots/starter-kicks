@@ -2,17 +2,9 @@
 import { html, registerIconLibrary } from '~/md-layout';
 ```
 
-
-```js script
-  window.addEventListener('load', () => {
-    [...document.querySelectorAll('div')]
-      .filter((e) => e.id.startsWith('__html_html'))
-      .forEach((e) => e.setAttribute('style', 'position:relative'));
-  });
-  ```
 # Tooltip
 
-[component-header:sl-tooltip]
+
 
 Tooltips display additional information based on a specific action.
 
@@ -342,4 +334,4 @@ Use the `content` slot to create tooltips with HTML content.
 </sl-tooltip>
 ```
 
-[component-metadata:sl-tooltip]
+

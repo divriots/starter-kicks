@@ -4,7 +4,7 @@ import { html, registerIconLibrary } from '~/md-layout';
 
 # Switch
 
-[component-header:sl-switch]
+
 
 Switches allow the user to toggle an option on or off. 
 
@@ -68,4 +68,4 @@ Use the available custom properties to make the switch a different size.
 <sl-switch style="--width: 80px; --height: 32px; --thumb-size: 26px;"></sl-switch>
 ```
 
-[component-metadata:sl-switch]
+

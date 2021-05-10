@@ -4,7 +4,7 @@ import { html, registerIconLibrary } from '~/md-layout';
 
 # Details
 
-[component-header:sl-details]
+
 
 Details show a brief summary and expand to show additional content.
 
@@ -125,4 +125,4 @@ window.addEventListener('load', () => {
 </style>
 ```
 
-[component-metadata:sl-details]
+

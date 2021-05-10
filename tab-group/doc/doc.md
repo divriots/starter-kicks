@@ -4,7 +4,7 @@ import { html, registerIconLibrary } from '~/md-layout';
 
 # Tab Group
 
-[component-header:sl-tab-group]
+
 
 Tab groups organize content into a container that shows one section at a time.
 
@@ -355,4 +355,4 @@ When focused, keyboard users can press <kbd>Left</kbd> or <kbd>Right</kbd> to se
 </sl-tab-group>
 ```
 
-[component-metadata:sl-tab-group]
+

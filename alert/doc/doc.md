@@ -4,7 +4,7 @@ import { html, registerIconLibrary } from '~/md-layout';
 
 # Alert
 
-[component-header:sl-alert]
+
 
 Alerts are used to display important messages either inline or as toast notifications.
 
@@ -446,4 +446,4 @@ By default, the toast stack is positioned at the top-right of the viewport. You 
 
 ?> By design, it is not possible to show toasts in more than one stack simultaneously. Such behavior is confusing and makes for a poor user experience.
 
-[component-metadata:sl-alert]
+

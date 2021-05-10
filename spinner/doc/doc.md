@@ -4,7 +4,7 @@ import { html, registerIconLibrary } from '~/md-layout';
 
 # Spinner
 
-[component-header:sl-spinner]
+
 
 Spinners are used to show the progress of an indeterminate operation.
 
@@ -70,4 +70,4 @@ The spinner's colors can be changed by setting the `--indicator-color` and `--tr
 <sl-spinner style="font-size: 2rem; --indicator-color: tomato;"></sl-spinner>
 ```
 
-[component-metadata:sl-spinner]
+

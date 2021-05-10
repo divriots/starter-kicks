@@ -4,7 +4,7 @@ import { html, registerIconLibrary } from '~/md-layout';
 
 # Menu Item
 
-[component-header:sl-menu-item]
+
 
 Menu items provide options for the user to pick from in a menu.
 
@@ -55,4 +55,4 @@ Menu items provide options for the user to pick from in a menu.
 </sl-menu>
 ```
 
-[component-metadata:sl-menu-item]
+

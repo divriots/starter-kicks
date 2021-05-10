@@ -4,7 +4,7 @@ import { html, registerIconLibrary } from '~/md-layout';
 
 # Button
 
-[component-header:sl-button]
+
 
 Buttons represent actions that are available to the user.
 
@@ -435,4 +435,4 @@ This example demonstrates how to style buttons using a custom class. This is the
 </style>
 ```
 
-[component-metadata:sl-button]
+

@@ -4,7 +4,7 @@ import { html, registerIconLibrary } from '~/md-layout';
 
 # Card
 
-[component-header:sl-card]
+
 
 Cards can be used to group related subjects in a container.
 
@@ -279,4 +279,4 @@ Cards accept an `image` slot. The image is displayed atop the card and stretches
 </style>
 ```
 
-[component-metadata:sl-card]
+
