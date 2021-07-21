@@ -1,5 +1,5 @@
 {
-  "name": "@divriots/starter-shoelace",
+  "name": "@backlight-dev/divriots.starter-shoelace",
   "version": "0.0.0",
   "scripts": {
     "serve": "dsd-cli serve 7W00PfYgN5yoq7l8mn8R --open"
