@@ -12,7 +12,8 @@
           "elevation",
           "border-radius",
           "transition",
-          "z-index"
+          "z-index",
+          "theme"
         ]
       ],
       [
@@ -58,10 +59,9 @@
         ]
       ],
       [
-        "infrastructure",
+        "dockit",
         [
-          "md-layout",
-          "theme"
+          "md-layout"
         ]
       ]
     ]
