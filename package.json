@@ -1,6 +1,8 @@
 {
   "name": "@backlight-dev/divriots.starter-shoelace",
   "version": "0.0.0",
+  "description": "A Shoelace based design system as a starter kit for Backlight",
+  "license": "MIT",
   "scripts": {
     "serve": "dsd-cli serve 7W00PfYgN5yoq7l8mn8R --open"
   },
