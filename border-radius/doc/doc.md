@@ -1,7 +1,7 @@
 ```js script
 import '@divriots/dockit-core/sass-showcases';
 import './showcase.css';
-import { html } from '~/md-layout';
+import { html } from '@divriots/starter-kicks/md-layout';
 ```
 
 # border-radius

@@ -1,5 +1,5 @@
 ```js script
-import { html, registerIconLibrary } from '~/md-layout';
+import { html, registerIconLibrary } from '@divriots/starter-kicks/md-layout';
 ```
 
 # Form

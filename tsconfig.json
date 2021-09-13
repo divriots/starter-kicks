@@ -9,7 +9,8 @@
     "module": "ESNext",
     "moduleResolution": "Node",
     "paths": {
-      "~/*": ["/*"]
+      "~/*": ["/*"],
+      "@divriots/starter-kicks/*": ["/*"]
     }
   }
 }
