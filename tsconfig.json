@@ -8,6 +8,7 @@
     "reactNamespace": "React",
     "module": "ESNext",
     "moduleResolution": "Node",
+    "outDir": "./dist",
     "paths": {
       "~/*": ["/*"],
       "@divriots/starter-kicks/*": ["/*"]

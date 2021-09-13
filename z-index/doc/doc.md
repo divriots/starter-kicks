@@ -1,6 +1,6 @@
 ```js script
 import '@divriots/dockit-core/sass-showcases';
-import { html } from '@divriots/starter-kicks/md-layout';
+import { html } from '~/md-layout';
 ```
 
 # z-index
