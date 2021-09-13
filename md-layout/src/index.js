@@ -1,5 +1,5 @@
 export { html } from 'lit-html';
-import '@shoelace-style/shoelace/dist/themes/base.css';
+import '@shoelace-style/shoelace/dist/themes/light.css';
 import '@shoelace-style/shoelace/dist/shoelace.js';
 import { registerIconLibrary } from '@shoelace-style/shoelace/dist/utilities/icon-library.js';
 import '~/theme/src/theme.scss';
