@@ -1,3 +1,5 @@
+import '@divriots/dockit-core/css-showcases';
+import '@divriots/dockit-core/style.css';
 export { html } from 'lit-html';
 import '@shoelace-style/shoelace/dist/themes/light.css';
 import '@shoelace-style/shoelace/dist/shoelace.js';
