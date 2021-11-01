@@ -7,10 +7,11 @@
     "serve": "npx backlight@latest serve 7W00PfYgN5yoq7l8mn8R --open"
   },
   "devDependencies": {
-    "@divriots/dockit-core": "^0.1.9",
+    "@divriots/dockit-core": "^0.2.1",
     "lit-html": "^1.4.1"
   },
   "dependencies": {
-    "@shoelace-style/shoelace": "^2.0.0-beta.51"
+    "@shoelace-style/shoelace": "^2.0.0-beta.58",
+    "lodash": "^4.17.21"
   }
 }
